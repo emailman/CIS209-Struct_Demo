@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.tbxMake = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.tbxYear = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.tbxYear = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tbxMake = new System.Windows.Forms.TextBox();
             this.lbxInventory = new System.Windows.Forms.ListBox();
             this.btnAddCar = new System.Windows.Forms.Button();
             this.btnRemoveCar = new System.Windows.Forms.Button();
@@ -57,22 +57,22 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Car Information";
             // 
-            // tbxMake
+            // label3
             // 
-            this.tbxMake.Location = new System.Drawing.Point(94, 20);
-            this.tbxMake.Name = "tbxMake";
-            this.tbxMake.Size = new System.Drawing.Size(100, 20);
-            this.tbxMake.TabIndex = 0;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(43, 88);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(47, 13);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Mileage:";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label1
+            // textBox2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(51, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Make:";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.textBox2.Location = new System.Drawing.Point(96, 85);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 4;
             // 
             // label2
             // 
@@ -91,22 +91,22 @@
             this.tbxYear.Size = new System.Drawing.Size(100, 20);
             this.tbxYear.TabIndex = 2;
             // 
-            // label3
+            // label1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(43, 88);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 13);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Mileage:";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(51, 23);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(37, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Make:";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBox2
+            // tbxMake
             // 
-            this.textBox2.Location = new System.Drawing.Point(96, 85);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 4;
+            this.tbxMake.Location = new System.Drawing.Point(94, 20);
+            this.tbxMake.Name = "tbxMake";
+            this.tbxMake.Size = new System.Drawing.Size(100, 20);
+            this.tbxMake.TabIndex = 0;
             // 
             // lbxInventory
             // 
@@ -122,7 +122,7 @@
             this.btnAddCar.Name = "btnAddCar";
             this.btnAddCar.Size = new System.Drawing.Size(75, 41);
             this.btnAddCar.TabIndex = 2;
-            this.btnAddCar.Text = "Add Car to List";
+            this.btnAddCar.Text = "Add Car to Inventory";
             this.btnAddCar.UseVisualStyleBackColor = true;
             this.btnAddCar.Click += new System.EventHandler(this.btnAddCar_Click);
             // 
@@ -130,9 +130,9 @@
             // 
             this.btnRemoveCar.Location = new System.Drawing.Point(292, 151);
             this.btnRemoveCar.Name = "btnRemoveCar";
-            this.btnRemoveCar.Size = new System.Drawing.Size(75, 41);
+            this.btnRemoveCar.Size = new System.Drawing.Size(102, 41);
             this.btnRemoveCar.TabIndex = 3;
-            this.btnRemoveCar.Text = "Remove Car from List";
+            this.btnRemoveCar.Text = "Remove Car from Inventory";
             this.btnRemoveCar.UseVisualStyleBackColor = true;
             this.btnRemoveCar.Click += new System.EventHandler(this.btnRemoveCar_Click);
             // 
